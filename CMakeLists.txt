@@ -45,7 +45,6 @@ install(TARGETS
   #test_image
   detect_yellow
   serial_node
-  move_robot
   DESTINATION lib/${PROJECT_NAME}
 )
 #--- end C++
