@@ -21,6 +21,11 @@ git clone https://github.com/Dansato1203/picamera_ros2.git -b fix-streamroles-re
 git clone git@github.com:j-is-already-taken/MotorControl.git
 ```
 
+### build
+```
+colcon build --symlink-install
+```
+
 ### Run Program
 1. Start Camera
    ```
