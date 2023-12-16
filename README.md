@@ -26,6 +26,7 @@ git clone git@github.com:j-is-already-taken/MotorControl.git
 ### build
 ```
 colcon build --symlink-install
+source install/setup.bash
 ```
 
 ### Run Program
