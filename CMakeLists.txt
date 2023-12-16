@@ -29,9 +29,9 @@ ament_target_dependencies(cpp_node rclcpp std_msgs)
 add_executable(sub_image src/sub_image.cpp)
 ament_target_dependencies(sub_image rclcpp sensor_msgs cv_bridge OpenCV)
 
-add_executable(test_image src/test_image.cpp)
-target_link_libraries(test_image "${TORCH_LIBRARIES}")
-ament_target_dependencies(test_image rclcpp sensor_msgs cv_bridge OpenCV)
+#add_executable(test_image src/test_image.cpp)
+#target_link_libraries(test_image "${TORCH_LIBRARIES}")
+#ament_target_dependencies(test_image rclcpp sensor_msgs cv_bridge OpenCV)
 
 add_executable(detect_yellow src/detect_yellow.cpp)
 ament_target_dependencies(detect_yellow rclcpp sensor_msgs geometry_msgs cv_bridge OpenCV)
@@ -39,13 +39,10 @@ ament_target_dependencies(detect_yellow rclcpp sensor_msgs geometry_msgs cv_brid
 add_executable(serial_node src/serial_node.cpp)
 ament_target_dependencies(serial_node rclcpp std_msgs)
 
-add_executable(move_robot src/move_robot.cpp)
-ament_target_dependencies(move_robot rclcpp geometry_msgs)
-
 install(TARGETS
   cpp_node
   sub_image
-  test_image
+  #test_image
   detect_yellow
   serial_node
   move_robot
