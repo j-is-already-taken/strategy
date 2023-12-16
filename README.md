@@ -3,6 +3,8 @@
 ## Usage
 ### install depends
 ```
+sudo apt update
+sudo apt full-upgrade -y
 sudo apt install build-essential cmake git libcamera-dev libopencv-dev libdrm-dev libboost-dev libboost-program-options-dev
 ```
 
