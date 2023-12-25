@@ -5,7 +5,7 @@
   <version>0.0.0</version>
   <description>The teamJ's software package</description>
   <maintainer email="dsato6363@gmail.com">Dan Sato</maintainer>
-  <license>TODO: License declaration</license>
+  <license>Apache License 2.0</license>
 
   <buildtool_depend>ament</buildtool_depend>
   <buildtool_depend>ament_cmake_python</buildtool_depend>
